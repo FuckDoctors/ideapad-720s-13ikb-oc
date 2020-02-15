@@ -4,4 +4,4 @@ log: logs\opencore-2020-02-07-153719.txt
 
 截图：
 
-![错误](./snapshots/P00207-233922.jpg)
+![错误](./snapshots/P00215-172738.jpg)
