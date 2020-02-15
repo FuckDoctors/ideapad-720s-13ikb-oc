@@ -116,7 +116,7 @@
 				<key>Comment</key>
 				<string>OC GPI0</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-OCGPI0-GPEN.aml</string>
 			</dict>
@@ -266,11 +266,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>OSID to XSID</string>
+				<string>OSID to XSID for dell</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>T1NJRA==</data>
 				<key>Limit</key>
