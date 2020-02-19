@@ -108,7 +108,7 @@
 				<key>Comment</key>
 				<string>SSDT Data</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>ssdt_data.aml</string>
 			</dict>
@@ -140,7 +140,7 @@
 				<key>Comment</key>
 				<string>OC Q11Q12</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-Q11Q12.aml</string>
 			</dict>
@@ -434,7 +434,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>X1ExMQ==</data>
 				<key>Limit</key>
@@ -460,7 +460,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>X1ExMg==</data>
 				<key>Limit</key>
@@ -737,7 +737,7 @@
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,4353</string>
+				<string>pci14e4,43a0</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
@@ -750,11 +750,15 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
 				<integer>22</integer>
+				<key>model</key>
+				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -1401,15 +1405,13 @@
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>BuiltinTextRenderer</key>
@@ -1508,18 +1510,6 @@
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Memory testing utility</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Name</key>
-				<string>memcheck</string>
-				<key>Path</key>
-				<string>memcheck/memcheck.efi</string>
-			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -1534,7 +1524,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a brcmfx-driver=1 -v keepsyms=1 slide=1 darkwake=0 dart=0 cpus=1 debug=0x100</string>
+				<string>brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1704,7 +1694,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>RequestBootVarFallback</key>
-			<true/>
+			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>SanitiseClearScreen</key>

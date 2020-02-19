@@ -11,6 +11,10 @@ OpenCore引导版 | [Clover引导版](https://github.com/FuckDoctors/ideapad-720
 
 电脑配置，BIOS设置，更多详情信息请参考[OpenCore引导版](https://github.com/FuckDoctors/ideapad-720s-13ikb-oc)。
 
+OC引导不成功，干脆使用rEFInd做引导，可以引导Windows，Clover，OpenCore。
+
+
+
 感谢：
 
  - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
