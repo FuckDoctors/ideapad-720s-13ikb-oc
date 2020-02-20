@@ -21,7 +21,7 @@ OpenCore引导版 | [Clover引导版](https://github.com/FuckDoctors/ideapad-720
 
 OC引导Windows不成功，干脆使用rEFInd做引导，ACPI无副作用，还可以引导Windows，Clover，OpenCore，为黑苹果做双重引导，降低翻车几率。
 
-为了避免NVMe内容对OC，Clover或系统有影响，rEFInd没使用NVMe。
+为了避免对OC，Clover或系统有影响，rEFInd没使用nvram。
 
 OC文件夹可以单独引导，最好修改`ShowPicker`为`true`，我用rEFInd引导所以，不使用`ShowPicker`，直接进系统。
 
