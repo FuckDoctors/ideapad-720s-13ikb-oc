@@ -19,11 +19,11 @@ OpenCore引导版 | [Clover引导版](https://github.com/FuckDoctors/ideapad-720
 
 ## rEFInd
 
-OC引导不成功，干脆使用rEFInd做引导，可以引导Windows，Clover，OpenCore。
+OC引导Windows不成功，干脆使用rEFInd做引导，ACPI无发作用，还可以引导Windows，Clover，OpenCore，为黑苹果做双重引导。
 
-为了避免NVMe内容对OC，Clover或系统有影响，rEFInd没使用NVme。
+为了避免NVMe内容对OC，Clover或系统有影响，rEFInd没使用NVMe。
 
-OC文件夹可以单独引导，最好修改`ShowPicker`为`true`，我用rEFInd引导所以，不使用`ShowPicker`。
+OC文件夹可以单独引导，最好修改`ShowPicker`为`true`，我用rEFInd引导所以，不使用`ShowPicker`，直接进系统。
 
 自己可以按需配置引导项，修改`themes¥simple¥theme.conf`即可。
 
