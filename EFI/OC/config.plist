@@ -1448,23 +1448,10 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>65</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Not signed for security reasons</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Windows 10</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/NVMe(0x1,66-AE-B8-71-BA-38-25-00)/HD(1,GPT,6450E626-875C-4752-ABBE-D44F97C9E120,0x800,0x82000)/\EFI\BOOT\BOOTX64.EFI</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1580,42 +1567,31 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
-		<key>DataHub</key>
-		<dict>
-			<key>BoardProduct</key>
-			<string>Mac-827FB448E656EC26</string>
-			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
-			<key>SystemSerialNumber</key>
-			<string>C02XN023JHCC</string>
-			<key>SystemUUID</key>
-			<string>4C16D9E9-065E-4EF3-B489-031EF75B965C</string>
-		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02845501QXJH4RJC</string>
+			<string>C02950902QXJH4RA8</string>
 			<key>ROM</key>
-			<data>ESIzAAAA</data>
+			<data>zioibKg4</data>
 			<key>SpoofVendor</key>
-			<true/>
+			<false/>
 			<key>SupportsCsm</key>
 			<false/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XN023JHCC</string>
+			<string>C02ZT7ZZJHCC</string>
 			<key>SystemUUID</key>
-			<string>4C16D9E9-065E-4EF3-B489-031EF75B965C</string>
+			<string>6C18DC7A-B54C-11E7-8A95-54EADB5FD27</string>
 		</dict>
 		<key>UpdateDataHub</key>
-		<true/>
+		<false/>
 		<key>UpdateNVRAM</key>
 		<true/>
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
+		<string>Auto</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
