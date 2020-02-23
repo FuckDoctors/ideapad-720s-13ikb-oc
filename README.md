@@ -35,4 +35,4 @@ EFI目录结果：
 
 rEFInd启动效果图（大晚上，而且拍照技术不行。。）：
 
-![rEFInd](./snapshots/rEFInd.jpg)
+![rEFInd](./snapshots/rEFInd.bmp)
