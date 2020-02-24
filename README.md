@@ -20,10 +20,6 @@ OpenCore引导版 | [Clover引导版](https://github.com/FuckDoctors/ideapad-720
 
 基本都能正常工作，详情参照[Clover引导版](https://github.com/FuckDoctors/ideapad-720s-13IKB)。
 
-差别：
-
-- 部分功能不如Clover版，比如F4麦克风静音，F8关闭摄像头，在OC下无效，记得在Clover下没问题，使用DSDT估计可解决。
-
 ### 感谢：
 
  - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
