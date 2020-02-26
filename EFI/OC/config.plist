@@ -52,9 +52,25 @@
 				<key>Comment</key>
 				<string>plugin-type=1</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PLUG-_PR.PR00.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT Data</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>ssdt_data.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>plugin-type=1 and Freq Data</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG-_PR.PR00_FREQ.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -68,7 +84,7 @@
 				<key>Comment</key>
 				<string>Notebook brightness</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF-SKL_KBL.aml</string>
 			</dict>
@@ -76,7 +92,7 @@
 				<key>Comment</key>
 				<string>Notebook brightness</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
@@ -103,14 +119,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT Data</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>ssdt_data.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -341,6 +349,32 @@
 				<data></data>
 				<key>Replace</key>
 				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PNLF to XNLF</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>UE5MRg==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WE5MRg==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1511,7 +1545,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
+				<string>-v brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>

@@ -20,6 +20,18 @@ OpenCore引导版 | [Clover引导版](https://github.com/FuckDoctors/ideapad-720
 
 基本都能正常工作，详情参照[Clover引导版](https://github.com/FuckDoctors/ideapad-720s-13IKB)。
 
+CPU变频，以MacBookPro15,2为例：
+
+使用`CPUFriend`里的工具制作变频数据，可以使用kext也可以使用acpi。
+
+为了更好的性能，我选择了acpi，并且跟`plugin-type`合并在一块了`SSDT-PLUG-_PR.PR00_FREQ.dsl`。
+
+``` shell
+./ResourceConverter.sh --acpi /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-827FB448E656EC26.plist
+
+./ResourceConverter.sh --kext /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-827FB448E656EC26.plist
+```
+
 ### 感谢：
 
  - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
