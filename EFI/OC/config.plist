@@ -771,7 +771,7 @@
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,43a0</string>
+				<string>pci14e4,4331</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
@@ -1545,7 +1545,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
+				<string>-v brcmfx-country=#a keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
