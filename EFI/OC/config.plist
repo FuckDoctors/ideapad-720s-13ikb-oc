@@ -154,6 +154,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>OC Q11Q12 pair with change EC0 to EC </string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-Q11Q12-EC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Type-C</string>
 				<key>Enabled</key>
 				<true/>
@@ -1545,7 +1553,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v brcmfx-country=#a keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
+				<string>-v brcmfx-country=#a bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
