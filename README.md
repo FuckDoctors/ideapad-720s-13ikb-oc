@@ -32,6 +32,10 @@ CPU变频，以MacBookPro15,2为例：
 ./ResourceConverter.sh --kext /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-827FB448E656EC26.plist
 ```
 
+### 其他说明
+
+ - 默认不duang，开机想duang一下的，可以使用`config-duang.plist`。
+
 ### 感谢：
 
  - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
