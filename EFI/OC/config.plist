@@ -830,14 +830,10 @@
 				<data>/////w==</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>EgAAAA==</data>
-				<key>#framebuffer-con2-alldata</key>
-				<data>AQUKAAAEAACHAQAAAgQKAAAIAACHAQAA</data>
 				<key>framebuffer-con2-alldata</key>
 				<data>AQUKAAAEAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>#framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
 				<key>framebuffer-con2-pipe</key>
 				<data>EgAAAA==</data>
 				<key>framebuffer-patch-enable</key>
