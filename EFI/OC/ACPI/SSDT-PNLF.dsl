@@ -1,4 +1,10 @@
-// Adding PNLF device for IntelBacklight.kext or AppleBacklight.kext+AppleBacklightFixup.kext
+// Adding PNLF device for WhateverGreen.kext and others.
+// This is a modified PNLF version originally taken from RehabMan/OS-X-Clover-Laptop-Config repository:
+// https://raw.githubusercontent.com/RehabMan/OS-X-Clover-Laptop-Config/master/hotpatch/SSDT-PNLF.dsl
+// Rename GFX0 to anything else if your IGPU name is different.
+//
+// Licensed under GNU General Public License v2.0
+// https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/License.md
 
 #define FBTYPE_SANDYIVY 1
 #define FBTYPE_HSWPLUS 2
@@ -11,10 +17,8 @@
 #define CUSTOM_PWMMAX_1499 0x1499
 #define COFFEELAKE_PWMMAX 0xffff
 
-#ifndef NO_DEFINITIONBLOCK
-DefinitionBlock("", "SSDT", 2, "hack", "_PNLF", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "PNLF", 0)
 {
-#endif
     External(RMCF.BKLT, IntObj)
     External(RMCF.LMAX, IntObj)
     External(RMCF.LEVW, IntObj)
@@ -33,14 +37,14 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PNLF", 0)
         Name(_ADR, Zero)
         Name(_HID, EisaId("APP0002"))
         Name(_CID, "backlight")
-        // _UID is set depending on PWMMax to match profiles in AppleBacklightFixup.kext Info.plist
+        // _UID is set depending on PWMMax to match profiles in WhateverGreen.kext Info.plist
         // 14: Sandy/Ivy 0x710
         // 15: Haswell/Broadwell 0xad9
         // 16: Skylake/KabyLake 0x56c (and some Haswell, example 0xa2e0008)
         // 17: custom LMAX=0x7a1
         // 18: custom LMAX=0x1499
         // 19: CoffeeLake 0xffff
-        // 99: Other (requires custom AppleBacklightInjector.kext/AppleBackightFixup.kext)
+        // 99: Other (requires custom AppleBacklightInjector.kext/WhateverGreen.kext)
         Name(_UID, 16)
         Name(_STA, 0x0B)
 
@@ -50,7 +54,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PNLF", 0)
             Offset(0x10), BAR1,32,
         }
 
-        // GFX0 PWM backlight register descriptions:
+        // IGPU PWM backlight register descriptions:
         //   LEV2 not currently used
         //   LEVL level of backlight in Sandy/Ivy
         //   P0BL counter, when zero is vertical blank
@@ -125,7 +129,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PNLF", 0)
             // Now fixup the backlight PWM depending on the framebuffer type
             // At this point:
             //   Local4 is RMCF.BLKT value, if specified (default is 1)
-            //   Local0 is device-id for GFX0
+            //   Local0 is device-id for IGPU
             //   Local2 is LMAX, if specified (Ones means based on device-id)
             //   Local3 is framebuffer type
 
@@ -249,8 +253,4 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PNLF", 0)
             Else { _UID = 99 }
         }
     }
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
-//EOF
-
