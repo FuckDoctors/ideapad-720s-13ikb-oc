@@ -871,7 +871,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAbWQ==</data>
+				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
@@ -884,26 +884,22 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
 				<key>framebuffer-con0-pipe</key>
 				<data>EgAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-index</key>
-				<data>/////w==</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>EgAAAA==</data>
-				<key>#framebuffer-con2-alldata</key>
-				<data>AQUKAAAEAACHAQAAAgQKAAAIAACHAQAA</data>
-				<key>framebuffer-con2-alldata</key>
+				<key>framebuffer-con1-alldata</key>
 				<data>AQUKAAAEAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>#framebuffer-con2-type</key>
+				<key>framebuffer-con2-type</key>
 				<data>AAQAAA==</data>
 				<key>framebuffer-con2-pipe</key>
 				<data>EgAAAA==</data>
+				<key>framebuffer-con2-index</key>
+				<data>/////w==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
@@ -1649,7 +1645,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
+				<string>brcmfx-country=#a keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100 igfxagdc=0</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
