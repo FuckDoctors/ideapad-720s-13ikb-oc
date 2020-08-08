@@ -826,6 +826,8 @@
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -833,7 +835,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1541,7 +1543,9 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1551,11 +1555,11 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>PickerAttributes</key>
-			<integer>0</integer>
+			<integer>11</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1577,13 +1581,30 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
 			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Windows</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/NVMe(0x1,66-AE-B8-71-BA-38-25-00)/HD(1,GPT,6450E626-875C-4752-ABBE-D44F97C9E120,0x800,0x82000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+			</dict>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1592,16 +1613,14 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
-			<string>None</string>
+			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
-			<integer>983299</integer>
+			<integer>17760515</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1673,6 +1692,8 @@
 				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>brcmfx-country=#a keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
+				<key>run-efi-updater</key>
+				<string>No</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1735,7 +1756,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<false/>
+			<true/>
 			<key>MLB</key>
 			<string>C02950902QXJH4RA8</string>
 			<key>ROM</key>
@@ -1749,7 +1770,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02ZT7ZZJHCC</string>
 			<key>SystemUUID</key>
-			<string>6C18DC7A-B54C-11E7-8A95-54EADB5FD27</string>
+			<string>A9312520-F03E-11E7-8A95-8C1645087A68</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1766,6 +1787,8 @@
 		<dict>
 			<key>EnableJumpstart</key>
 			<true/>
+			<key>GlobalConnect</key>
+			<false/>
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
@@ -1797,7 +1820,6 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>#ApfsDriverLoader.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>#OpenCanopy.efi</string>
 			<string>#AudioDxe.efi</string>
@@ -1855,6 +1877,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1865,6 +1889,8 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEvent</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
