@@ -154,7 +154,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>OC Q11Q12 pair with change EC0 to EC </string>
+				<string>OC Q11Q12 pair with change EC0 to EC</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -297,8 +297,6 @@
 		<key>Patch</key>
 		<array>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>OSID to XSID for dell</string>
 				<key>Count</key>
@@ -325,8 +323,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>_OSI to XOSI</string>
 				<key>Count</key>
@@ -353,8 +349,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
 				<key>Count</key>
@@ -381,8 +375,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>PNLF to XNLF</string>
 				<key>Count</key>
@@ -409,8 +401,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change NTFY to XTFY</string>
 				<key>Count</key>
@@ -437,8 +427,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
 				<key>Count</key>
@@ -465,8 +453,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>Rename _RMV to XRMV in RP09.PXSX and use with SSDT-TYPC.aml for USB-C hot plug support</string>
 				<key>Count</key>
@@ -493,8 +479,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>_Q11 to XQ11</string>
 				<key>Count</key>
@@ -521,8 +505,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>_Q12 to XQ12</string>
 				<key>Count</key>
@@ -549,8 +531,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change GFX0 to IGPU</string>
 				<key>Count</key>
@@ -577,8 +557,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change SAT0 to SATA</string>
 				<key>Count</key>
@@ -605,8 +583,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change EC0 to EC</string>
 				<key>Count</key>
@@ -633,8 +609,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change H_EC to EC__</string>
 				<key>Count</key>
@@ -661,8 +635,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change HDAS to HDEF</string>
 				<key>Count</key>
@@ -689,8 +661,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change HECI to IMEI</string>
 				<key>Count</key>
@@ -717,8 +687,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>change _STA to XSTA in GPI0</string>
 				<key>Count</key>
@@ -745,8 +713,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>_PTS to ZPTS(1,N)</string>
 				<key>Count</key>
@@ -773,8 +739,6 @@
 				<data></data>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Comment</key>
 				<string>_WAK to ZWAK(1,S)</string>
 				<key>Count</key>
@@ -836,8 +800,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>Patch</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Comment</key>
+				<string>macOS to hacOS</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>bWFjT1M=</data>
+				<key>Identifier</key>
+				<string>Apple</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>Replace</key>
+				<data>aGFjT1M=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -908,6 +901,10 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>#framebuffer-con0-pipe</key>
+				<data>EgAAAA==</data>
+				<key>#framebuffer-con0-type</key>
+				<data>AAQAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
@@ -922,24 +919,20 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
-				<key>#framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>#framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUKAAAEAACHAQAA</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>EgAAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQUKAAAEAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
 				<key>framebuffer-con2-index</key>
 				<data>/////w==</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>EgAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAQAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>hda-gfx</key>
@@ -1177,8 +1170,6 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
@@ -1450,12 +1441,12 @@
 		</array>
 		<key>Emulate</key>
 		<dict>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -1472,10 +1463,10 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IONetworkingFamily</string>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>MaxKernel</key>
 				<string>13.99.99</string>
 				<key>MinKernel</key>
@@ -1509,6 +1500,36 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
+				<key>Replace</key>
+				<data>ww==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string>_AcpiOsVprintf</string>
+				<key>Comment</key>
+				<string>Disable ACPI logging</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleACPIPlatform</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>18.5.0</string>
+				<key>MinKernel</key>
+				<string>18.5.0</string>
 				<key>Replace</key>
 				<data>ww==</data>
 				<key>ReplaceMask</key>
@@ -1655,7 +1676,7 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
+			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<true/>
@@ -1671,6 +1692,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
@@ -1700,12 +1723,18 @@
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>11</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1749,6 +1778,8 @@
 				<string>Windows</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)/NVMe(0x1,66-AE-B8-71-BA-38-25-00)/HD(1,GPT,6450E626-875C-4752-ABBE-D44F97C9E120,0x800,0x82000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -1757,10 +1788,16 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>ApECID</key>
+			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BootProtect</key>
-			<string>None</string>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
@@ -1791,6 +1828,10 @@
 				<string>UEFI Shell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1805,6 +1846,10 @@
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1819,6 +1864,10 @@
 				<string>Shutdown</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -1886,6 +1935,8 @@
 				<string>bluetoothInternalControllerInfo</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
+				<string>fmm-mobileme-token-FMM</string>
+				<string>fmm-mobileme-token-FMM-BridgeHasAccount</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
 			</array>
@@ -1911,8 +1962,8 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<true/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>MLB</key>
 			<string>C02950902QXJH4RA8</string>
 			<key>ProcessorType</key>
@@ -1920,9 +1971,9 @@
 			<key>ROM</key>
 			<data>zioibKg4</data>
 			<key>SpoofVendor</key>
-			<false/>
-			<key>SupportsCsm</key>
-			<false/>
+			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
@@ -1938,6 +1989,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -1969,7 +2022,9 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Auto</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -1977,10 +2032,11 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
+			<string>OpenHfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>#AudioDxe.efi</string>
+			<string>#OpenPartitionDxe.efi</string>
 			<string>#OpenUsbKbDxe.efi</string>
 			<string>#UsbMouseDxe.efi</string>
 			<string>#Ps2KeyboardDxe.efi</string>
@@ -1989,7 +2045,6 @@
 			<string>#NvmExpressDxe.efi</string>
 			<string>#XhciDxe.efi</string>
 			<string>#ExFatDxe.efi</string>
-			<string>#PartitionDxe.efi</string>
 			<string>#CrScreenshotDxe.efi</string>
 		</array>
 		<key>Input</key>
@@ -2081,8 +2136,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
+			<key>DisableSecurityPolicy</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -2101,26 +2156,26 @@
 			<dict>
 				<key>Address</key>
 				<integer>268435456</integer>
-				<key>Type</key>
-				<string>Reserved</string>
 				<key>Comment</key>
 				<string>HD3000: IGPU memory corruption errata</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Size</key>
 				<integer>268435456</integer>
+				<key>Type</key>
+				<string>Reserved</string>
 			</dict>
 			<dict>
 				<key>Address</key>
 				<integer>569344</integer>
-				<key>Type</key>
-				<string>RuntimeCode</string>
 				<key>Comment</key>
 				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Size</key>
 				<integer>4096</integer>
+				<key>Type</key>
+				<string>RuntimeCode</string>
 			</dict>
 		</array>
 	</dict>
