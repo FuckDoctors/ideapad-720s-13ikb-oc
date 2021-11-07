@@ -297,6 +297,10 @@
 		<key>Patch</key>
 		<array>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>OSID to XSID for dell</string>
 				<key>Count</key>
@@ -323,6 +327,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>_OSI to XOSI</string>
 				<key>Count</key>
@@ -349,6 +357,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
 				<key>Count</key>
@@ -375,6 +387,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>PNLF to XNLF</string>
 				<key>Count</key>
@@ -401,6 +417,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change NTFY to XTFY</string>
 				<key>Count</key>
@@ -427,6 +447,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
 				<key>Count</key>
@@ -453,6 +477,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>Rename _RMV to XRMV in RP09.PXSX and use with SSDT-TYPC.aml for USB-C hot plug support</string>
 				<key>Count</key>
@@ -479,6 +507,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>_Q11 to XQ11</string>
 				<key>Count</key>
@@ -505,6 +537,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>_Q12 to XQ12</string>
 				<key>Count</key>
@@ -531,6 +567,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change GFX0 to IGPU</string>
 				<key>Count</key>
@@ -557,6 +597,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change SAT0 to SATA</string>
 				<key>Count</key>
@@ -583,6 +627,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change EC0 to EC</string>
 				<key>Count</key>
@@ -609,6 +657,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change H_EC to EC__</string>
 				<key>Count</key>
@@ -635,6 +687,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change HDAS to HDEF</string>
 				<key>Count</key>
@@ -661,6 +717,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change HECI to IMEI</string>
 				<key>Count</key>
@@ -687,6 +747,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>change _STA to XSTA in GPI0</string>
 				<key>Count</key>
@@ -713,6 +777,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>_PTS to ZPTS(1,N)</string>
 				<key>Count</key>
@@ -739,6 +807,10 @@
 				<data></data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>_WAK to ZWAK(1,S)</string>
 				<key>Count</key>
@@ -776,6 +848,8 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
+			<true/>
+			<key>SyncTableIds</key>
 			<false/>
 		</dict>
 	</dict>
@@ -795,7 +869,7 @@
 				<key>Address</key>
 				<integer>4278190080</integer>
 				<key>Comment</key>
-				<string>Generic: PCI root is a 0x1000 page memory region used by some firmwares</string>
+				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
 				<key>Enabled</key>
 				<false/>
 			</dict>
@@ -845,6 +919,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>ForceBooterSignature</key>
+			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
@@ -955,7 +1031,7 @@
 		<array>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
@@ -967,13 +1043,13 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>12.0.0</string>
+				<string>8.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
@@ -985,7 +1061,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>12.0.0</string>
+				<string>8.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1003,13 +1079,13 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>12.0.0</string>
+				<string>10.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
@@ -1021,7 +1097,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>12.0.0</string>
+				<string>8.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1692,6 +1768,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -1701,10 +1779,12 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1774,6 +1854,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>Windows</string>
 				<key>Path</key>
@@ -1788,6 +1870,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>AllowToggleSip</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1824,6 +1908,8 @@
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>OpenShell:UEFIShell:Shell</string>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -1842,6 +1928,8 @@
 				<string>VerifyMsrE2</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
@@ -1860,6 +1948,8 @@
 				<string>Perform shutdown</string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>Shutdown</string>
 				<key>Path</key>
@@ -1893,12 +1983,14 @@
 				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100</string>
-				<key>run-efi-updater</key>
-				<string>No</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1915,6 +2007,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>ForceDisplayRotationInEFI</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -2009,6 +2102,23 @@
 			<key>MinVersion</key>
 			<integer>0</integer>
 		</dict>
+		<key>AppleInput</key>
+		<dict>
+			<key>AppleEvent</key>
+			<string>Builtin</string>
+			<key>CustomDelays</key>
+			<false/>
+			<key>GraphicsInputMirroring</key>
+			<true/>
+			<key>KeyInitialDelay</key>
+			<integer>50</integer>
+			<key>KeySubsequentDelay</key>
+			<integer>5</integer>
+			<key>PointerSpeedDiv</key>
+			<integer>1</integer>
+			<key>PointerSpeedMul</key>
+			<integer>1</integer>
+		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
@@ -2023,6 +2133,8 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -2032,20 +2144,176 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>OpenHfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
-			<string>OpenCanopy.efi</string>
-			<string>#AudioDxe.efi</string>
-			<string>#OpenPartitionDxe.efi</string>
-			<string>#OpenUsbKbDxe.efi</string>
-			<string>#UsbMouseDxe.efi</string>
-			<string>#Ps2KeyboardDxe.efi</string>
-			<string>#Ps2MouseDxe.efi</string>
-			<string>#HiiDatabase.efi</string>
-			<string>#NvmExpressDxe.efi</string>
-			<string>#XhciDxe.efi</string>
-			<string>#ExFatDxe.efi</string>
-			<string>#CrScreenshotDxe.efi</string>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>HFS+ Driver</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>HFS+ Driver</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenHfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>AudioDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenPartitionDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenUsbKbDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>UsbMouseDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>Ps2KeyboardDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>Ps2MouseDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>HiiDatabase.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>NvmExpressDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>XhciDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>ExFatDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>CrScreenshotDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>ext4_x64.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenLinuxBoot.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -2053,8 +2321,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -2078,6 +2344,8 @@
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopPassThrough</key>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -2103,7 +2371,7 @@
 			<false/>
 			<key>AppleDebugLog</key>
 			<false/>
-			<key>AppleEvent</key>
+			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
@@ -2136,14 +2404,24 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
+			<key>EnableVectorAcceleration</key>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
+			<key>ForgeUefiSupport</key>
+			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<true/>
+			<key>ReloadOptionRoms</key>
+			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>
