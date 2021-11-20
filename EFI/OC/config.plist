@@ -873,6 +873,14 @@
 				<key>Enabled</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4292345944</integer>
+				<key>Comment</key>
+				<string>Fault CR2: 0X00000000ffd80058, Error code: 0X0000000000000000, Fault CPU: 0x2, PL: 0, VF: 1</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
@@ -908,7 +916,7 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<false/>
+			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -928,7 +936,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<false/>
+			<true/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
@@ -1767,7 +1775,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1802,7 +1810,7 @@
 			<key>CustomKernel</key>
 			<false/>
 			<key>FuzzyMatch</key>
-			<true/>
+			<false/>
 			<key>KernelArch</key>
 			<string>Auto</string>
 			<key>KernelCache</key>
@@ -1822,7 +1830,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1832,13 +1840,13 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1947,7 +1955,7 @@
 				<key>Comment</key>
 				<string>VerifyMsrE2</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
@@ -2004,7 +2012,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a brcmfx-driver=2 keepsyms=1 slide=1 darkwake=0 dart=0 debug=0x100 -v</string>
+				<string>brcmfx-country=#a brcmfx-driver=2 keepsyms=1 vsmcgen=1 -v</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2116,7 +2124,7 @@
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
-			<false/>
+			<true/>
 			<key>MinDate</key>
 			<integer>0</integer>
 			<key>MinVersion</key>
