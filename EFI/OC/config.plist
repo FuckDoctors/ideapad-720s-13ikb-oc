@@ -881,6 +881,14 @@
 				<key>Enabled</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>151699456</integer>
+				<key>Comment</key>
+				<string>Fault CR2: 0X00000000090ac000, Error code: 0X0000000000000000, Fault CPU: 0x6, PL: 4</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
