@@ -9,6 +9,10 @@
 //
 // Search _OSI......
 //
+// https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/decompiled/SSDT-XOSI.dsl
+//
+// How to identify the Windows version in ACPI by using _OSI
+// https://learn.microsoft.com/en-us/windows-hardware/drivers/acpi/winacpi-osi#_osi-strings-for-windows-operating-systems
 DefinitionBlock("", "SSDT", 2, "ACDT", "OC-XOSI", 0)
 {
     Method(XOSI, 1)
@@ -30,9 +34,10 @@ DefinitionBlock("", "SSDT", 2, "ACDT", "OC-XOSI", 0)
 //                Return (0xFFFFFFFF)
 //            }
 
-            If (Arg0 == "Windows 24H2" )
+            // Windows 2021 -> Windows 11
+            If ( Arg0 == "Windows 2021" )
             {
-                Return (Ones)
+                Return (0xFFFFFFFF)
             }
 
             
