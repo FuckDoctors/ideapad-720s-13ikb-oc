@@ -25,6 +25,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "XOSI", 0)
             //"Windows 2012",         // Windows 8/Windows Server 2012
             //"Windows 2013",       // Windows 8.1/Windows Server 2012 R2
             "Windows 2015",       // Windows 10/Windows Server TP
+            "Windows 2021",
+            "Windows 2022"
         }
         Return (Ones != Match(Local0, MEQ, Arg0, MTR, 0, 0))
     }
