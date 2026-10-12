@@ -28,7 +28,7 @@
                     <key>Comment</key>
                     <string>_OSI TO XOSI</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-OC-XOSI.aml</string>
                 </dict>
@@ -130,19 +130,11 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>OC GPI0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-OCGPI0-GPEN.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-OCI2C-TPXX-720S.aml</string>
+                    <string>SSDT-TPXX.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -336,7 +328,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X09TSQ==</data>
                     <key>Limit</key>
